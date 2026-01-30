@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
+import torch.fft
 import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 
@@ -25,9 +26,7 @@ args = parser.parse_args()
 torch.manual_seed(0)
 np.random.seed(0)
 
-import torch
-import torch.nn as nn
-import torch.fft
+
 
 
 class SpectralConv2d_fast(nn.Module):
