@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
+import torch.fft
 import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 import matplotlib.pyplot as plt
@@ -32,9 +33,6 @@ else:
     device = torch.device("cpu")
     print("Running on CPU")
 
-import torch
-import torch.nn as nn
-import torch.fft
 
 
 class SpectralConv2d_fast(nn.Module):
