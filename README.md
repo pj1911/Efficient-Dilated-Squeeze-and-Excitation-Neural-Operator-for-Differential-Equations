@@ -5,8 +5,18 @@ D-SENO is a lightweight neural operator for fast, accurate PDE surrogates. It co
 
 1) Install dependencies:
    
-        pip install -r requirements.txt
+   pip install -r requirements.txt
 
-2)Run experiments for d_seno:
+2) Run experiments for d_seno:
 
     python scripts/d_seno_airfoil.py --data_dir /path/to/npy/files
+    python scripts/d_seno_pipe.py --data_dir /path/to/npy/files
+    python scripts/d_seno_darcy.py --data_dir /path/to/npy/files
+    python scripts/d_seno_ns.py --data_dir /path/to/npy/files
+
+3) Run experiments for fno_plus:
+
+    python scripts/fno_plus_airfoil.py --data_dir /path/to/npy/files
+    python scripts/fno_plus_pipe.py --data_dir /path/to/npy/files
+    python scripts/fno_plus_darcy.py --data_dir /path/to/npy/files
+    python scripts/fno_plus_ns.py --data_dir /path/to/npy/files
