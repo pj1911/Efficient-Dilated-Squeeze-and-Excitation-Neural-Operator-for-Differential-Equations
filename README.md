@@ -1,6 +1,9 @@
 # Efficient-Dilated-Squeeze-and-Excitation-Neural-Operator-for-Differential-Equations
 D-SENO is a lightweight neural operator for fast, accurate PDE surrogates. It combines dilated convolution blocks (wide receptive fields) with squeeze-excitation modules (channel recalibration) to capture long-range physics efficiently. Achieves up to ~20× faster training while matching/outperforming prior methods.
 
+# Dataset: 
+The datasets used in this study are publicly available: airfoil potential flow and Poiseuille pipe flow datasets are available at \url{https://github.com/neuraloperator/Geo-FNO}, and the Darcy flow and Navier-Stokes datasets are available at \url{https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-}.
+
 ## Run: D-SENO (Experiments)
 
 ### 1) Install dependencies
